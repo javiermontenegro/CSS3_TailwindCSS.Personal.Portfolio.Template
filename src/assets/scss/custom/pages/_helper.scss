@@ -1,15 +1,11 @@
 
-/*********************************/
-/*             Helper            */
-/*===============================*/
+/**  Helper  **/
 .container,
 .contacinr-fluid {
     @apply relative;
 }
 
-/*********************************/
-/*         Tobii Lightbox        */
-/*===============================*/
+/**  Tobii Lightbox  **/
 /* Tobii Lighbox */
 .tobii>button.tobii__close svg,
 .tobii>button.tobii__prev svg, 
@@ -33,9 +29,7 @@
     @apply p-0;
 }
 
-/*****************/
-/*    Shapes     */
-/*****************/
+/**  Shapes  **/
 /* Shapes */
 .shape {
     @apply absolute right-0 -bottom-px left-0;
@@ -46,15 +40,12 @@
     }
 }
 
-/*****************/
-/*  back-to-top  */
-/*****************/
+/**  back-to-top  **/
 .back-to-top {
     @apply hidden;
 }
-/*****************/
-/*    Switcher   */
-/*****************/
+
+/**  Switcher  **/
 .label {
     .ball {
         transition: transform 0.2s linear;
@@ -66,10 +57,7 @@
 	@apply translate-x-6;
 }
 
-
-/*****************/
-/*   Preloader   */
-/*****************/
+/**  Preloader  **/
 #preloader {
     background-image: linear-gradient(45deg, #ffffff, #ffffff);
     z-index: 99999;
@@ -97,9 +85,7 @@
     }
 }
 
-/*********************************/
-/*             Testi            */
-/*===============================*/
+/**  Testi  **/
 .customer-testi {
     @apply cursor-e-resize;
     .content {
@@ -123,9 +109,7 @@ html[dir="rtl"]{
     }
 }
 
-/*****************/
-/*  video iframe */
-/*****************/
+/**  video iframe  **/
 @media (max-width: 640px) {
     [data-type] iframe, [data-type] video {
         width: 500px;

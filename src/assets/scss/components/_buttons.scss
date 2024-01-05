@@ -1,8 +1,6 @@
 
 
-/********************/
-/*     Buttons      */
-/*==================*/
+/**  Buttons  **/
 /* Note: If you want to add your own colors, you can do so by going to this tailwind.config.js file  */
 .btn {
     @apply h-10 px-6 inline-flex items-center justify-center font-medium tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center;
